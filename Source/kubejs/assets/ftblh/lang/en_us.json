@@ -1,0 +1,13 @@
+{
+  "key.ftblh.toggle": "Toggle Helper",
+  "key.categories.ftblh": "FTB Little Helper",
+  "ftblh.message.hi": "Hi!",
+  "ftblh.message.bye": "Bye!",
+  "ftblh.message.no_permission": "You don't have permission to do that!",
+  "ftblh.chat_prefix": "[Vaett] ",
+  "entity.ftblh.little_helper": "Vaett",
+  "ftblh.npc.vaett": "Vaett",
+  "ftblh.respawn.welcome_back": "Hey you grew too weak for a minute there but I grabbed you and brought you back here! We'll do better next time, we got this!",
+  "ftblh.respawn.food_eaten": "Carrying you sure was a lot of work, it made me really hungry so I had to eat some of your %s. I hope you don't mind",
+  "ftblh.respawn.no_food": "Carrying you sure was a lot of work, do you have any snacks?"
+}
