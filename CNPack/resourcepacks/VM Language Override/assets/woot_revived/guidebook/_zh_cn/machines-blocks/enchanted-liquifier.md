@@ -1,0 +1,24 @@
+---
+navigation:
+    parent: machines-blocks/machines-blocks-index.md
+    title: "附魔液化器"
+    icon: "woot_revived:enchanted_liquifier"
+item_ids:
+  - woot_revived:enchanted_liquifier
+  - woot_revived:enchanted_fluid_bucket
+---
+# 附魔液化器
+
+<BlockImage id="enchanted_liquifier" scale="5"/>
+
+<ItemImage id="enchanted_liquifier" scale="0.5"/>附魔液化器通过对附魔书进行液化来产出<ItemImage id="enchanted_fluid_bucket" scale="0.5"/>附魔流体。
+
+每个附魔书的魔咒等级将产出<WootConfig key="enchanted_liquifier.per_enchant_fluid" />毫升的附魔流体。上限为<WootConfig key="enchanted_liquifier.max_enchant_lvl" />级。
+
+这意味着，若附魔书的魔咒等级高于<WootConfig key="enchanted_liquifier.max_enchant_lvl" />，其将被视作<WootConfig key="enchanted_liquifier.max_enchant_lvl" />级魔咒。
+
+<EnchantedRecipe />
+
+## 合成
+
+<RecipeFor id="enchanted_liquifier" />
