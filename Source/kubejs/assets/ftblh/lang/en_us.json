@@ -1,9 +1,4 @@
 {
-  "key.ftblh.toggle": "Toggle Helper",
-  "key.categories.ftblh": "FTB Little Helper",
-  "ftblh.message.hi": "Hi!",
-  "ftblh.message.bye": "Bye!",
-  "ftblh.message.no_permission": "You don't have permission to do that!",
   "ftblh.chat_prefix": "[Vaett] ",
   "entity.ftblh.little_helper": "Vaett",
   "ftblh.npc.vaett": "Vaett",
