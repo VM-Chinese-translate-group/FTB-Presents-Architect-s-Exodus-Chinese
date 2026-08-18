@@ -36,9 +36,9 @@
     ]
   },
   "exclusionPatterns": [
+    "**/enchanted/lang/en_us.json",
     "**/ftblh/lang/en_us.json",
     "**/lang/*.*",
-    "**/dimdungeons/lang/*.*",
-    "!**/lang/en_us.*"
+    "**/dimdungeons/lang/*.*"
   ]
 }
