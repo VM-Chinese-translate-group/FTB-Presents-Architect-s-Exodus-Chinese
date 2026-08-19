@@ -1,13 +1,13 @@
 {
-  "key.ftblh.toggle": "Toggle Helper",
-  "key.categories.ftblh": "FTB Little Helper",
+  "key.ftblh.toggle": "配置助手",
+  "key.categories.ftblh": "FTB小帮手",
   "ftblh.message.hi": "嗨！",
   "ftblh.message.bye": "拜拜！",
-  "ftblh.message.no_permission": "You don't have permission to do that!",  
-  "ftblh.chat_prefix": "[Vaett] ",
-  "entity.ftblh.little_helper": "Vaett",
-  "ftblh.npc.vaett": "Vaett",
-  "ftblh.respawn.welcome_back": "Hey you grew too weak for a minute there but I grabbed you and brought you back here! We'll do better next time, we got this!",
-  "ftblh.respawn.food_eaten": "Carrying you sure was a lot of work, it made me really hungry so I had to eat some of your %s. I hope you don't mind",
-  "ftblh.respawn.no_food": "Carrying you sure was a lot of work, do you have any snacks?"
+  "ftblh.message.no_permission": "你没有权限这么做！",  
+  "ftblh.chat_prefix": "[精怪]",
+  "entity.ftblh.little_helper": "精怪",
+  "ftblh.npc.vaett": "精怪",
+  "ftblh.respawn.welcome_back": "嘿，你刚才重伤倒地，但我抓住了你，把你带回来了！下次我们会做得更好，我们能行的！",
+  "ftblh.respawn.food_eaten": "背着你可真是费了不少劲，让我饿得要命，所以只好吃掉你的一些%s。希望你别介意。",
+  "ftblh.respawn.no_food": "带着你真是费了好大的劲，你有零食吗？"
 }
