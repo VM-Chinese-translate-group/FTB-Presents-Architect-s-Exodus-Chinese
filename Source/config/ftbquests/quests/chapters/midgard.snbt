@@ -141,7 +141,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/puffish_skills category unlock @s puffish_skills:midgard"
+					command: "/puffish_skills category unlock @p puffish_skills:midgard"
 					elevate_perms: true
 					id: "1FEA18CBFC68CA6D"
 					silent: true
@@ -234,7 +234,10 @@
 			y: 12.0d
 		}
 		{
-			dependencies: ["4CCFB2DE88D0DEB8"]
+			dependencies: [
+				"4CCFB2DE88D0DEB8"
+				"6AD3782183BBC9EB"
+			]
 			description: [
 				"[\"\",{\"italic\":true,\"translate\":\"ftbquests.chapter.midgard.quest1867E0344DB73FF9.rich_description1\"},{\"color\":\"rainbow\",\"italic\":true,\"translate\":\"ftbquests.chapter.midgard.quest1867E0344DB73FF9.rich_description2\"},{\"italic\":true,\"translate\":\"ftbquests.chapter.midgard.quest1867E0344DB73FF9.rich_description3\"}]"
 				""
@@ -506,6 +509,8 @@
 				"{ftbquests.chapter.midgard.quest588B319A421EDD48.description1}"
 				""
 				"{ftbquests.chapter.midgard.quest588B319A421EDD48.description2}"
+				""
+				"[\"\", {\"color\": \"gray\", \"underlined\": true, \"italic\": true, \"translate\": \"ftbquests.chapter.rise_from_hel.quest588B319A421EDD48.rich_description1\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5D96F0CE1154B9B8\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": {\"translate\": \"ftbquests.chapter.rise_from_hel.quest588B319A421EDD48.rich_description2\"}}}, {\"italic\": true, \"color\": \"gray\", \"translate\": \"ftbquests.chapter.rise_from_hel.quest588B319A421EDD48.rich_description3\"}]"
 			]
 			icon: {
 				Count: 1
@@ -658,6 +663,8 @@
 				"{ftbquests.chapter.midgard.quest24208D8003B7870D.description4}"
 				""
 				"{ftbquests.chapter.midgard.quest24208D8003B7870D.description5}"
+				""
+				"[\"\", {\"color\": \"gray\", \"underlined\": true, \"italic\": true, \"translate\": \"ftbquests.chapter.rise_from_hel.quest24208D8003B7870D.rich_description1\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5D96F0CE1154B9B8\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": {\"translate\": \"ftbquests.chapter.rise_from_hel.quest24208D8003B7870D.rich_description2\"}}}, {\"italic\": true, \"color\": \"gray\", \"translate\": \"ftbquests.chapter.rise_from_hel.quest24208D8003B7870D.rich_description3\"}]"
 			]
 			hide_dependency_lines: true
 			icon: "create:mechanical_mixer"
@@ -772,10 +779,13 @@
 				"{ftbquests.chapter.midgard.quest4D160FB5903BA926.description3}"
 				""
 				"[\"\",{\"color\":\"gray\",\"italic\":true,\"translate\":\"ftbquests.chapter.midgard.quest4D160FB5903BA926.rich_description1\"},{\"color\":\"aqua\",\"underlined\":true,\"italic\":true,\"translate\":\"ftbquests.chapter.midgard.quest4D160FB5903BA926.rich_description2\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/open_guideme draconicevolution:guide open draconicevolution:fusion_crafting.md\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"translate\":\"ftbquests.chapter.midgard.quest4D160FB5903BA926.rich_description3\"}}},{\"color\":\"gray\",\"italic\":true,\"translate\":\"ftbquests.chapter.midgard.quest4D160FB5903BA926.rich_description4\"}]"
+				""
+				"[\"\", {\"color\": \"gray\", \"underlined\": true, \"italic\": true, \"translate\": \"ftbquests.chapter.rise_from_hel.quest4D160FB5903BA926.rich_description1\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5D96F0CE1154B9B8\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": {\"translate\": \"ftbquests.chapter.rise_from_hel.quest4D160FB5903BA926.rich_description2\"}}}, {\"italic\": true, \"color\": \"gray\", \"translate\": \"ftbquests.chapter.rise_from_hel.quest4D160FB5903BA926.rich_description3\"}]"
 			]
 			hide_dependency_lines: true
 			icon: "draconicevolution:crafting_core"
 			id: "4D160FB5903BA926"
+			min_width: 300
 			rewards: [
 				{
 					command: "/puffish_skills points add @p puffish_skills:midgard 1"
@@ -1575,7 +1585,7 @@
 			optional: true
 			rewards: [
 				{
-					command: "/puffish_skills points add @p puffish_skills:jotunheim 8"
+					command: "/puffish_skills points add @p puffish_skills:jotunheim 9"
 					elevate_perms: true
 					icon: {
 						Count: 1
