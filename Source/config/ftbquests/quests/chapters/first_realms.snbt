@@ -623,7 +623,7 @@
 		{
 			dependencies: ["0CE4A8E9ACE78C97"]
 			description: [
-				"[\"\",{\"italic\":true,\"translate\":\"ftbquests.chapter.first_realms.quest40F5167720FAEEC3.rich_description1\"},{\"color\":\"gold\",\"italic\":true,\"translate\":\"ftbquests.chapter.first_realms.quest40F5167720FAEEC3.rich_description2\"},{\"italic\":true,\"translate\":\"ftbquests.chapter.first_realms.quest40F5167720FAEEC3.rich_description3\"},{\"color\":\"gold\",\"italic\":true,\"translate\":\"ftbquests.chapter.first_realms.quest40F5167720FAEEC3.rich_description4\"},{\"italic\":true,\"translate\":\"ftbquests.chapter.first_realms.quest40F5167720FAEEC3.rich_description5\"},{\"color\":\"rainbow\",\"italic\":true,\"translate\":\"ftbquests.chapter.first_realms.quest40F5167720FAEEC3.rich_description6\"},{\"color\":\"white\",\"italic\":true,\"translate\":\"ftbquests.chapter.first_realms.quest40F5167720FAEEC3.rich_description7\"}]"
+				"[\"\",{\"italic\":true,\"translate\":\"ftbquests.chapter.first_realms.quest40F5167720FAEEC3.rich_description1\"},{\"color\":\"gold\",\"italic\":true,\"translate\":\"ftbquests.chapter.first_realms.quest40F5167720FAEEC3.rich_description2\"},{\"italic\":true,\"translate\":\"ftbquests.chapter.first_realms.quest40F5167720FAEEC3.rich_description3\"},{\"color\":\"gold\",\"italic\":true,\"translate\":\"ftbquests.chapter.first_realms.quest40F5167720FAEEC3.rich_description4\"}]"
 				""
 				"{ftbquests.chapter.first_realms.quest40F5167720FAEEC3.description2}"
 				""
@@ -2606,7 +2606,7 @@
 			id: "0F80B209B1F6318E"
 			rewards: [
 				{
-					command: "/puffish_skills points add @p puffish_skills:jotunheim 12"
+					command: "/puffish_skills points add @p puffish_skills:jotunheim 13"
 					elevate_perms: true
 					icon: {
 						Count: 1
