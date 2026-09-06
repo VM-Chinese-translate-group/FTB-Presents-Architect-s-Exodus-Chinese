@@ -225,7 +225,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/puffish_skills category unlock @s puffish_skills:asgard"
+					command: "/puffish_skills category unlock @p puffish_skills:asgard"
 					elevate_perms: true
 					id: "2DBA2AF5D8D89680"
 					silent: true
@@ -564,7 +564,10 @@
 			y: 8.5d
 		}
 		{
-			dependencies: ["3CED32EA0095B2BA"]
+			dependencies: [
+				"3CED32EA0095B2BA"
+				"10E6D806760B6661"
+			]
 			description: [
 				"[\"\",{\"italic\":true,\"translate\":\"ftbquests.chapter.asgard.quest4AD3E7AFEBE71D50.rich_description1\"},{\"color\":\"rainbow\",\"italic\":true,\"translate\":\"ftbquests.chapter.asgard.quest4AD3E7AFEBE71D50.rich_description2\"},{\"italic\":true,\"translate\":\"ftbquests.chapter.asgard.quest4AD3E7AFEBE71D50.rich_description3\"}]"
 				""
