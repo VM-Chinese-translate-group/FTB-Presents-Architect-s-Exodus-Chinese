@@ -209,7 +209,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/puffish_skills category unlock @s puffish_skills:muspelheim"
+					command: "/puffish_skills category unlock @p puffish_skills:muspelheim"
 					elevate_perms: true
 					id: "268F49B91B718A48"
 					silent: true
