@@ -209,7 +209,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/puffish_skills category unlock @s puffish_skills:muspelheim"
+					command: "/puffish_skills category unlock @p puffish_skills:muspelheim"
 					elevate_perms: true
 					id: "268F49B91B718A48"
 					silent: true
@@ -693,6 +693,9 @@
 				"{ftbquests.chapter.muspelheim.quest629DFC667104EC8A.description2}"
 				""
 				"{ftbquests.chapter.muspelheim.quest629DFC667104EC8A.description3}"
+				""
+				"{@pagebreak}"
+				"{ftbquests.chapter.muspelheim.quest629DFC667104EC8A.description4}"
 			]
 			icon: "block_factorys_bosses:dragon_skull"
 			id: "629DFC667104EC8A"

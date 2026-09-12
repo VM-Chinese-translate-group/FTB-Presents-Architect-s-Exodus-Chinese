@@ -1049,7 +1049,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["10E6D806760B6661"]
+			dependencies: ["090C3231D451A302"]
 			description: [
 				"{ftbquests.chapter.general_tech.quest4A1DBDE0963407E7.description1}"
 				""
@@ -1744,6 +1744,43 @@
 			}]
 			x: 0.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["283EA4E7BA93DA11"]
+			description: [
+				"{ftbquests.chapter.general_tech.quest7988A90DB52ABA58.description1}"
+				""
+				"{ftbquests.chapter.general_tech.quest7988A90DB52ABA58.description2}"
+			]
+			icon: "actuallyadditions:empowered_oil_bucket"
+			id: "7988A90DB52ABA58"
+			rewards: [{
+				count: 2
+				id: "7FF6442786A4D746"
+				item: "actuallyadditions:empowered_canola_seed"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "52223DFB0DDC5F2B"
+					item: "actuallyadditions:refined_canola_oil_bucket"
+					type: "item"
+				}
+				{
+					id: "29A1CC9CC36B43F3"
+					item: "actuallyadditions:empowered_canola_seed"
+					type: "item"
+				}
+				{
+					id: "448428AC0143A7E3"
+					item: "actuallyadditions:empowered_oil_bucket"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.general_tech.quest7988A90DB52ABA58.title}"
+			x: 0.0d
+			y: 5.5d
 		}
 	]
 	title: "{ftbquests.chapter.general_tech.title}"
