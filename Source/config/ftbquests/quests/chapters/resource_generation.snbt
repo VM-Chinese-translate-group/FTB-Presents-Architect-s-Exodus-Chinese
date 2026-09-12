@@ -300,7 +300,7 @@
 				""
 				"{ftbquests.chapter.resource_generation.quest234A09F196E91BDD.description2}"
 				""
-				"[\"\",{\"color\":\"aqua\",\"underlined\":true,\"translate\":\"ftbquests.chapter.resource_generation.quest234A09F196E91BDD.rich_description1\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/open_guideme ftb:guide open\"}},{\"translate\":\"ftbquests.chapter.resource_generation.quest234A09F196E91BDD.rich_description2\"}]"
+				"[\"\",{\"color\":\"aqua\",\"underlined\":true,\"translate\":\"ftbquests.chapter.resource_generation.quest234A09F196E91BDD.rich_description1\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/open_guideme ftb:guide open ftb:materials_and_you.md\"}}, {\"translate\":\"ftbquests.chapter.resource_generation.quest234A09F196E91BDD.rich_description2\"}]"
 			]
 			icon: {
 				Count: 1
@@ -948,6 +948,7 @@
 				""
 				"{ftbquests.chapter.resource_generation.quest7EB0BAA01457E628.description4}"
 			]
+			icon: "woot_revived:netherite_magmator"
 			id: "7EB0BAA01457E628"
 			rewards: [{
 				count: 2
