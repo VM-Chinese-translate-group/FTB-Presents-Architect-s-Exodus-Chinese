@@ -1,5 +1,3 @@
-# .github/scripts/update_checker.py
-
 import os
 import sys
 import json
@@ -10,6 +8,8 @@ import re
 import subprocess
 import uuid
 from pathlib import Path, PurePosixPath
+
+from sync_pack_info import sync_pack_info
 
 
 REQUEST_TIMEOUT = (10, 120)
@@ -526,12 +526,7 @@ def main():
         else:
             shutil.copy2(item, dest)
 
-    with open(info_file_path, "r+", encoding="utf-8") as f:
-        data = json.load(f)
-        data["modpack"]["version"] = latest_clean_version
-        f.seek(0)
-        json.dump(data, f, indent=2, ensure_ascii=False)
-        f.truncate()
+    patch_file_path = sync_pack_info(info_file_path, latest_clean_version)
 
     pr_body = generate_pr_body(
         pack_name,
@@ -551,6 +546,7 @@ def main():
     set_github_output("local_version_id", local_version_id or "")
     set_github_output("new_version_id", latest_version_id or "")
     set_github_output("info_file_path", str(info_file_path.relative_to(repo_root)))
+    set_github_output("patch_file_path", str(patch_file_path.relative_to(repo_root)))
     set_github_output("source_dir", str(config["sourceDir"]))
 
     shutil.rmtree(temp_root, ignore_errors=True)
