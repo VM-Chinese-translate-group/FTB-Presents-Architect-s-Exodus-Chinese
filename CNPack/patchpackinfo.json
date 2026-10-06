@@ -2,7 +2,10 @@
   "formatVersion": 1,
   "name": "FTB Presents Architect's Exodus简中汉化",
   "description": "FTB Presents Architect's Exodus简体中文汉化，记得额外下载i18n模组",
-  "modpackVersionRange": "[1.14.0,)",
+  "modpack": {
+    "name": "FTB Presents Architect's Exodus",
+    "versionRange": "[1.14.0,)"
+  },
   "authors": [
     "VM汉化组"
   ],
